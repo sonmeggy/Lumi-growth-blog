@@ -1,0 +1,12 @@
+hermes-agent:
+  label: Hermes Agent
+  permalink: /hermes-agent
+  description: Hermes Agent 기반 개인 AI 비서 운영
+personal-ai:
+  label: 개인 AI 비서
+  permalink: /personal-ai
+  description: 개인화 AI 비서 성장 기록
+automation:
+  label: 자동화
+  permalink: /automation
+  description: cron, workflow, tool automation
