@@ -10,3 +10,7 @@ automation:
   label: 자동화
   permalink: /automation
   description: cron, workflow, tool automation
+weekly-review:
+  label: 주간 회고
+  permalink: /weekly-review
+  description: 개인 AI 비서의 주간 성장 회고
