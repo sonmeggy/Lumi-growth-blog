@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">개인 AI 비서 주간 성장 루프</title>
+  <desc id="desc">질문 처리, 자료 확인, 자동화 실행, 실패 분석, 스킬 업데이트, 공개 기록 분리로 이어지는 주간 성장 루프</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="675" rx="34" fill="url(#bg)"/>
+  <text x="600" y="74" text-anchor="middle" fill="#0f172a" font-size="38" font-weight="900" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif">주간 성장 루프</text>
+  <text x="600" y="112" text-anchor="middle" fill="#475569" font-size="20" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif">좋은 개인 AI 비서는 매주 기록하고, 고치고, 재사용한다</text>
+
+  <circle cx="600" cy="355" r="132" fill="#dbeafe" stroke="#60a5fa" stroke-width="4" filter="url(#soft)"/>
+  <text x="600" y="330" text-anchor="middle" fill="#1e3a8a" font-size="30" font-weight="900" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif">운영 루프</text>
+  <text x="600" y="366" text-anchor="middle" fill="#1e40af" font-size="18" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif">응답 → 검증 → 기록 → 개선</text>
+  <text x="600" y="398" text-anchor="middle" fill="#1e40af" font-size="18" font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif">매주 반복될수록 개인화된다</text>
+
+  <g font-family="Pretendard, Apple SD Gothic Neo, Arial, sans-serif" filter="url(#soft)">
+    <rect x="462" y="150" width="276" height="82" rx="22" fill="#ffffff" stroke="#3b82f6"/>
+    <text x="600" y="184" text-anchor="middle" fill="#1e3a8a" font-size="22" font-weight="800">1. 질문·업무 처리</text>
+    <text x="600" y="211" text-anchor="middle" fill="#475569" font-size="15">답변, 계산, 자료 정리</text>
+
+    <rect x="805" y="265" width="276" height="82" rx="22" fill="#ffffff" stroke="#22c55e"/>
+    <text x="943" y="299" text-anchor="middle" fill="#166534" font-size="22" font-weight="800">2. 자료·상태 확인</text>
+    <text x="943" y="326" text-anchor="middle" fill="#475569" font-size="15">로그, 문서, 인증, 결과 검증</text>
+
+    <rect x="735" y="505" width="276" height="82" rx="22" fill="#ffffff" stroke="#a855f7"/>
+    <text x="873" y="539" text-anchor="middle" fill="#6b21a8" font-size="22" font-weight="800">3. 실패 분석</text>
+    <text x="873" y="566" text-anchor="middle" fill="#475569" font-size="15">증상·원인·검증으로 분해</text>
+
+    <rect x="189" y="505" width="276" height="82" rx="22" fill="#ffffff" stroke="#f97316"/>
+    <text x="327" y="539" text-anchor="middle" fill="#9a3412" font-size="22" font-weight="800">4. 스킬·기억 갱신</text>
+    <text x="327" y="566" text-anchor="middle" fill="#475569" font-size="15">재사용 절차만 남긴다</text>
+
+    <rect x="119" y="265" width="276" height="82" rx="22" fill="#ffffff" stroke="#ec4899"/>
+    <text x="257" y="299" text-anchor="middle" fill="#9d174d" font-size="22" font-weight="800">5. 공개 기록 분리</text>
+    <text x="257" y="326" text-anchor="middle" fill="#475569" font-size="15">민감정보 제거 후 일반화</text>
+  </g>
+
+  <path d="M678 227 C762 227, 822 247, 877 267" fill="none" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M940 350 C950 420, 925 465, 890 506" fill="none" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M725 550 C620 605, 485 600, 410 558" fill="none" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M296 505 C252 455, 236 398, 250 349" fill="none" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M330 265 C405 225, 455 210, 520 205" fill="none" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+</svg>
